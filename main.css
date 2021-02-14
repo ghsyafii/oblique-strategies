@@ -111,21 +111,20 @@ body {
   padding: 30px;
 }
 
-.card__body h3 {
+.card__body p {
   color: var(--dark);
-  font-size: 27px;
-  font-weight: 600;
+  /*font-weight: 600;*/
   text-align: center;
   margin-top: 25%;
 }
 
 .card__body p {
   color: var(--dark);
-  font-size: 18px;
+  font-size: 25px;
   line-height: 1.4;
 }
 
-div h3.hide {
+div p.hide {
   /*visibility: hidden;*/
   color: #F3F3F3;
 }
