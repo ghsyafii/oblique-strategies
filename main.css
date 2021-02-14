@@ -25,7 +25,7 @@ body {
 .card__inner {
   width: 100%;
   height: 100%;
-  transition: transform 1s;
+  transition: transform 0.5s;
   transform-style: preserve-3d;
   cursor: pointer;
   position: relative;
@@ -116,11 +116,13 @@ body {
   /*font-weight: 600;*/
   text-align: center;
   margin-top: 25%;
+  margin-left: 30px;
+  margin-right: 30px;
 }
 
 .card__body p {
   color: var(--dark);
-  font-size: 25px;
+  font-size: 26px;
   line-height: 1.4;
 }
 
