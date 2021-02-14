@@ -124,3 +124,8 @@ body {
   font-size: 18px;
   line-height: 1.4;
 }
+
+div h3.hide {
+  /*visibility: hidden;*/
+  color: #F3F3F3;
+}

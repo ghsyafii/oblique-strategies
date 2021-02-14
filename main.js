@@ -124,13 +124,14 @@ const strategies = [
 ]
 
 const randomStrat = () => {
-  let text = "";
-  let strat = strategies[Math.floor(Math.random() * 113)];
-  text = strat;
-  input.innerHTML = text;
+  // let text = "";
+  let strat = strategies[Math.floor(Math.random() * strategies.length)];
+  // text = strat;
+  input.innerHTML = strat;
 }
 
 card.addEventListener("click", (e) => {
   card.classList.toggle('is-flipped');
-  setTimeout(randomStrat(), 3000);
+  input.classList.toggle('hide');
+  randomStrat();
 });
