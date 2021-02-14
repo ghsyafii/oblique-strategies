@@ -1,7 +1,7 @@
 //TODO: Add Pep
 //TODO: Make strategy change only after card is flipped over
 
-const card = document.querySelector(".card__inner");
+const card = document.querySelector('.card__inner');
 
 const input = document.querySelector('.input');
 
@@ -53,7 +53,7 @@ const strategies = [
 "Faced with a choice, do both",
 "Feedback recordings into an acoustic situation",
 "Fill every beat with something",
-  "Get your neck massaged",
+    "Get your neck massaged",
 "Ghost echoes",
 "Give the game away",
 "Give way to your worst impulse",
@@ -124,9 +124,7 @@ const strategies = [
 ]
 
 const randomStrat = () => {
-  // let text = "";
   let strat = strategies[Math.floor(Math.random() * strategies.length)];
-  // text = strat;
   input.innerHTML = strat;
 }
 
