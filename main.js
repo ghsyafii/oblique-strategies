@@ -110,6 +110,7 @@ const strategies = [
 "Use fewer notes",
 "Use filters",
 "Use 'unqualified' people",
+    "Short circuit (example; a man eating peas with the idea that they will improve his virility shovels them straight into his lap)",
 "Water",
 "What are you really thinking about just now? Incorporate",
     "What is the reality of the situation?",
