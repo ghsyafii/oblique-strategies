@@ -13,10 +13,11 @@
 body {
   width: 100%;
   min-height: 100vh;
+  overflow: hidden;
 }
 
 .card {
-  margin: 100px auto 0;
+  margin: 150px auto;
   width: 600px;
   height: 400px;
   perspective: 1000px;
@@ -115,18 +116,20 @@ body {
   color: var(--dark);
   /*font-weight: 600;*/
   text-align: center;
-  margin-top: 25%;
-  margin-left: 30px;
-  margin-right: 30px;
+  margin-top: 27%;
+  margin-left: 40px;
+  margin-right: 40px;
 }
 
 .card__body p {
   color: var(--dark);
-  font-size: 26px;
+  font-size: 24px;
   line-height: 1.4;
+  letter-spacing: 0.7px;
 }
 
 div p.hide {
   /*visibility: hidden;*/
   color: #F3F3F3;
 }
+
