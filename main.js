@@ -1,6 +1,3 @@
-//TODO: Add Pep
-//TODO: Make strategy change only after card is flipped over
-
 const card = document.querySelector('.card__inner');
 
 const input = document.querySelector('.input');

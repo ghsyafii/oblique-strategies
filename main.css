@@ -117,9 +117,10 @@ body {
   color: var(--dark);
   /*font-weight: 600;*/
   text-align: center;
-  margin-top: 27%;
-  margin-left: 40px;
-  margin-right: 40px;
+  margin-top: 25%;
+  margin-left: 100px;
+  margin-right: 100px;
+  /*background-color: lightcoral;*/
 }
 
 .card__body p {
