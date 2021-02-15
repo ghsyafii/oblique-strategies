@@ -14,10 +14,11 @@ body {
   width: 100%;
   min-height: 100vh;
   overflow: hidden;
+  background-color: #FDFBF3;
 }
 
 .card {
-  margin: 150px auto;
+  margin: 23vh auto;
   width: 600px;
   height: 400px;
   perspective: 1000px;
@@ -133,3 +134,14 @@ div p.hide {
   color: #F3F3F3;
 }
 
+/*.container {*/
+/*  height: 100%;*/
+/*  position: absolute;*/
+/*  overflow: hidden;*/
+/*  width: 100%;*/
+/*}*/
+
+/*.content {*/
+/*  position: relative;*/
+/*  margin: 20% auto;*/
+/*}*/
