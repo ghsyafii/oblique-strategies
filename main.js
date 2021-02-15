@@ -123,6 +123,10 @@ const strategies = [
     ""
 ]
 
+//test font size
+
+// const strategies = ["Short circuit (example; a man eating peas with the idea that they will improve his virility shovels them straight into his lap)"]
+
 const randomStrat = () => {
   let strat = strategies[Math.floor(Math.random() * strategies.length)];
   input.innerHTML = strat;
