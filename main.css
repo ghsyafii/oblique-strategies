@@ -182,3 +182,13 @@ footer a:hover {
   transition: color 0.5s;
 }
 
+.about a {
+  font-family: Helvetica;
+  text-decoration: none;
+  color: black;
+}
+
+.about a:hover {
+  text-decoration: underline;
+}
+

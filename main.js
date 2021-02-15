@@ -4,7 +4,7 @@ const input = document.querySelector('.input');
 
 const footer = document.querySelector('footer a');
 
-const head = document.querySelector('h2');
+const head = document.querySelector('.head');
 
 const strategies = [
 
