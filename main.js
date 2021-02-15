@@ -2,6 +2,10 @@ const card = document.querySelector('.card__inner');
 
 const input = document.querySelector('.input');
 
+const footer = document.querySelector('footer a');
+
+const head = document.querySelector('h2');
+
 const strategies = [
 
 "Abandon normal instruments",
@@ -134,3 +138,23 @@ card.addEventListener("click", (e) => {
   input.classList.toggle('hide');
   randomStrat();
 });
+
+setTimeout(function(){
+    footer.style.color = "#FDFBF3";
+}, 3000)
+
+footer.addEventListener('mouseover', () => {
+    footer.style.color = 'black';
+})
+
+footer.addEventListener('mouseout', () => {
+    footer.style.color = '#FDFBF3';
+})
+
+
+setInterval(function(){
+    head.style.opacity -= 0.1;
+}, 3000);
+
+
+

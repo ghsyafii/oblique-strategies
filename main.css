@@ -59,6 +59,7 @@ body {
 .card__face--front h2 {
   color: #FFF;
   font-size: 32px;
+  justify-content: center;
 }
 
 .card__face--back {
@@ -117,7 +118,7 @@ body {
   color: var(--dark);
   /*font-weight: 600;*/
   text-align: center;
-  margin-top: 25%;
+  margin-top: 26%;
   margin-left: 100px;
   margin-right: 100px;
   /*background-color: lightcoral;*/
@@ -128,7 +129,7 @@ body {
   font-size: 23px;
   line-height: 1.4;
   letter-spacing: 0.7px;
-  justify-content: left;
+  justify-content: center;
 }
 
 div p.hide {
@@ -155,3 +156,24 @@ div p.hide {
   /* bring your own prefixes */
   transform: translate(-50%, -50%);
 }
+
+footer {
+  position: fixed;
+  bottom: 0px;
+  right: 0px;
+  font-family: Helvetica;
+  padding-right: 10px;
+  padding-bottom: 10px;
+}
+
+footer a {
+  color: black;
+  text-decoration: none;
+}
+
+footer a:hover {
+  text-decoration: underline;
+  color: #000000;
+  transition: color 0.5s;
+}
+
