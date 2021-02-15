@@ -156,6 +156,3 @@ setInterval(function(){
     head.style.opacity -= 0.1;
 }, 3000);
 
-//Removed this strat:
-// "Short circuit (example; a man eating peas with the idea that they will improve his virility shovels them straight into his lap)",
-
