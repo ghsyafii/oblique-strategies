@@ -92,7 +92,6 @@ const strategies = [
 "Remove specifics and convert to ambiguities",
 "Repetition is a form of change",
 "Reverse",
-"Short circuit (example; a man eating peas with the idea that they will improve his virility shovels them straight into his lap)",
 "Shut the door and listen from outside",
 "Simple subtraction",
 "Spectrum analysis",
@@ -156,5 +155,6 @@ setInterval(function(){
     head.style.opacity -= 0.1;
 }, 3000);
 
-
+//Removed this strat:
+// "Short circuit (example; a man eating peas with the idea that they will improve his virility shovels them straight into his lap)",
 

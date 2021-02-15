@@ -118,7 +118,7 @@ body {
   color: var(--dark);
   /*font-weight: 600;*/
   text-align: center;
-  margin-top: 27%;
+  margin-top: 25%;
   margin-left: 100px;
   margin-right: 100px;
   /*background-color: lightcoral;*/
@@ -126,7 +126,7 @@ body {
 
 .card__body p {
   color: var(--dark);
-  font-size: 21px;
+  font-size: 25px;
   line-height: 1.4;
   letter-spacing: 0.7px;
   justify-content: center;
